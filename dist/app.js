@@ -15,4 +15,5 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
     console.log(`Start server: http://localhost:${PORT}`);
 });
+exports.default = app;
 //# sourceMappingURL=app.js.map

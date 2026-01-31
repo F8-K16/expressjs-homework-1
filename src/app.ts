@@ -14,3 +14,5 @@ app.get("/", (req: Request, res: Response) => {
 app.listen(PORT, () => {
   console.log(`Start server: http://localhost:${PORT}`);
 });
+
+export default app;
